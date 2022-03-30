@@ -33,6 +33,7 @@
 }
 /** 1.2- Body Element */
 body{
+  font-family: 'Quicksand', sans-serif;
   overflow-x: hidden !important;
 }
 /** 2- Section Style */
