@@ -1,0 +1,43 @@
+/* 
+* Template Name             : Mobster UI
+* Start Date                : 30-3-2022
+* End Date                  : 
+* Last Update               : 
+* Version                   : 1.0.0
+* URL                       : https://mohammedmodather2020.github.io/mobster-ui
+* GitHub URL                : https://github.com/MohammedModather2020/mobster-ui.git
+* Contact US                : mohammedmodather144@gmail.com
+*/
+/* 
+* 1- General Style
+   1.0- Universal Selector
+   1.1- Root Element
+   1.2- Body Element
+* 2- Section Style
+   2.0- 
+* 3- Common Style
+   3.0- 
+*/
+/* 
+/** 1- Genral Style */
+/**  1.0- Universal Selector */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/** 1.1- Root Element */
+:root{
+  scroll-behavior: smooth;
+  overflow-x: hidden !important;
+}
+/** 1.2- Body Element */
+body{
+  overflow-x: hidden !important;
+}
+/** 2- Section Style */
+/**  2.0- */
+
+
+/** 3- Common Style */
+/**  3.0- */
