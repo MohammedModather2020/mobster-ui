@@ -15,8 +15,9 @@
    1.2- Body Element
 * 2- Section Style
    2.0- Navbar Header
+   2.1- Main
 * 3- Common Style
-   3.0- 
+   3.0- Button Primary
 */
 /* 
 /** 1- Genral Style */
@@ -62,11 +63,72 @@ body{
   color: var(--indigo);
 }
 .navbar-header .download button{
+  position: relative;
+  z-index: 999;
   background-color: var(--dark);
 }
 .navbar-header  .download button a{
   color: var(--white);
 }
+/** 2.1- Main */
+.main{
+  position: absolute;
+  inset: 0;
+  background-image: url(../assets/images/bg_hero_1.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.main,
+.main .container{
+  min-height: 100vh;
+}
+.main .text .title{
+  font-size: 3.5rem;
+}
+.main .text .sub-title{
+  font-size: .9rem;
+  font-weight: 500;
+}
+.main .text .sub-title i{
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  background-color: var(--indigo);
+}
+.main .text .desc{
+  width: 64%;
+  line-height: var(--line-height);
+}
+.main .image{
+  margin-top: 20%;
+}
+.main .image img{
+  width: 100%;
+  max-width: 233px;
+  height: auto;
+  border-radius: 30px;
+}
+.floating-animate {
+  animation: bounceLimit 4s linear infinite;
+  -webkit-animation: bounceLimit 4s linear infinite;
+}
+@keyframes bounceLimit {
+  0%, 50%, 100% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(4px);
+  }
+  75% {
+    transform: translateY(-4px);
+  }
+}
 
 /** 3- Common Style */
-/**  3.0- */
+/**  3.0- Button Primary */
+.b-primary{
+  font-family: var(--font-family);
+  padding: .6rem 1.4rem;
+  background-color: var(--primary);
+}
