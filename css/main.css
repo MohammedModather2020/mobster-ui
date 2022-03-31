@@ -64,6 +64,7 @@ body{
 }
 .navbar-header .download button{
   position: relative;
+  padding: .77rem 1.3rem;
   z-index: 999;
   background-color: var(--dark);
 }
