@@ -14,7 +14,7 @@
    1.1- Root Element
    1.2- Body Element
 * 2- Section Style
-   2.0- 
+   2.0- Navbar Header
 * 3- Common Style
    3.0- 
 */
@@ -28,17 +28,45 @@
 }
 /** 1.1- Root Element */
 :root{
+  --primary: #3D58F3;
+  --secondary: #A52EFF;
+  --success: #0ABF9E;
+  --warning: #E89E09;
+  --info: #4699F8;
+  --danger: #F13057;
+  --indigo: #602FDA;
+  --dark: #383340;
+  --light: #F0EEF5;
+  --gray: #6b6872;
+  --white: #fff;
+  --font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+  --line-height: 1.7;
   scroll-behavior: smooth;
   overflow-x: hidden !important;
 }
 /** 1.2- Body Element */
 body{
-  font-family: 'Quicksand', sans-serif;
+  font-family: var(--font-family);
   overflow-x: hidden !important;
 }
 /** 2- Section Style */
-/**  2.0- */
-
+/**  2.0- Navbar Header */
+.navbar-header .links li a{
+  font-size: .95rem;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 600;
+}
+.navbar-header .links li.active a,
+.navbar-header .links li:hover a{
+  color: var(--indigo);
+}
+.navbar-header .download button{
+  background-color: var(--dark);
+}
+.navbar-header  .download button a{
+  color: var(--white);
+}
 
 /** 3- Common Style */
 /**  3.0- */
