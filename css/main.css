@@ -82,7 +82,7 @@ body{
 }
 .main,
 .main .container{
-  min-height: 100vh;  
+  min-height: calc(100vh + 49px); 
 }
 .main .text .title{
   font-size: 3.5rem;
