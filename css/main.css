@@ -16,6 +16,7 @@
 * 2- Section Style
    2.0- Navbar Header
    2.1- Main
+   2.2- Clients
 * 3- Common Style
    3.0- Button Primary
 */
@@ -73,8 +74,6 @@ body{
 }
 /** 2.1- Main */
 .main{
-  position: absolute;
-  inset: 0;
   background-image: url(../assets/images/bg_hero_1.svg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -82,7 +81,7 @@ body{
 }
 .main,
 .main .container{
-  min-height: 100vh;
+  min-height: 100vh;  
 }
 .main .text .title{
   font-size: 3.5rem;
@@ -125,7 +124,21 @@ body{
     transform: translateY(-4px);
   }
 }
-
+/** 2.2- Clients */
+.clients{
+  background: #ededed;
+}
+.clients .clients-swiper .box img{
+  margin-bottom: 10px;
+  background-color: #fff;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  height: 150px;
+  object-fit: contain;
+  object-position: center;
+  box-shadow: rgb(0 0 0 / 10%) 0px 10px 50px;
+}
 /** 3- Common Style */
 /**  3.0- Button Primary */
 .b-primary{
