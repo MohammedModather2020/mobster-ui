@@ -17,6 +17,7 @@
    2.0- Navbar Header
    2.1- Main
    2.2- Clients
+   2.2- Features
 * 3- Common Style
    3.0- Button Primary
 */
@@ -138,6 +139,64 @@ body{
   object-fit: contain;
   object-position: center;
   box-shadow: rgb(0 0 0 / 10%) 0px 10px 50px;
+}
+/** 2.3- Features */
+.features {
+  background-image: url(../assets/images/img-pattern-1.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.features .image img{
+  box-shadow: 0 0.25rem 0.75rem rgb(56 51 64 / 12%);
+  overflow: hidden;
+  border-radius: 1.8rem;
+  -webkit-border-radius: 1.8rem;
+  -moz-border-radius: 1.8rem;
+  -ms-border-radius: 1.8rem;
+  -o-border-radius: 1.8rem;
+}
+.features .features-top .text .feature .icon i{
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  color: var(--white);
+  font-size: 26px;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.features .features-top .text .feature .icon i.cube{
+  background-color: var(--warning);
+}
+.features .features-top .text .feature .icon i.shield{
+  background-color: var(--info);
+}
+.features .features-top .text .feature .icon i.desktop{
+  background-color: var(--primary);
+}
+.features .features-top .text .feature .content .title{
+  font-size: 1.4rem;
+}
+.features .features-top .text .feature .content .desc{
+  font-size: .83rem;
+  line-height: 1.9;
+}
+.features .features-bottom .text .desc{
+  font-size: .9rem;
+  line-height: 1.9;
+}
+.features .features-bottom .text button{
+  border-width: 2px;
+  font-size: .9rem;
+  border-color: var(--indigo);
+}
+.features .features-bottom .text button a{
+  color: var(--indigo);
+  font-weight: 500;
 }
 /** 3- Common Style */
 /**  3.0- Button Primary */
