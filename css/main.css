@@ -291,8 +291,13 @@ body{
 /**  3.0- Button Primary */
 .b-primary{
   font-family: var(--font-family);
-  padding: .6rem 1.4rem;
+  padding: .75rem 1.4rem;
   background-color: var(--primary);
+}
+.b-primary:hover {
+  color: #ffffff;
+  background-color: #1737f1;
+  box-shadow: 0 4px 12px rgb(61 88 243 / 30%);
 }
 /** 3.1- Button Gradient */
 .btn-gradient {
@@ -309,4 +314,17 @@ body{
   width: 100%;
   height: 100%;
   background-color: rgba(56, 51, 64, 0.6);
+}
+/** 3.3- From */
+.form .form-group label{
+  font-size: .9rem;
+  margin-bottom: .3rem;
+}
+.form .form-group label .required{
+  color: var(--danger);
+}
+.form .form-group .form-control:focus{
+  outline: none;
+  box-shadow: unset;
+  border-color:#3D58F3;
 }
