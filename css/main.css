@@ -21,10 +21,13 @@
    2.4- Why Choose 
    2.5- Pricing
    2.6- Customer Stories
+   2.7- Footer
 * 3- Common Style
    3.0- Button Primary
    3.1- Button Gradient
    3.2- Background Image Overlay 
+   3.3- From 
+   3.4- PlaceHolder
 */
 /* 
 /** 1- Genral Style */
@@ -287,6 +290,29 @@ body{
 .customer-stories .text button:hover a{
   color: #5F5A68;
 }
+/** 2.7- Footer */
+.footer{
+  background-color: var(--dark);
+}
+.footer .links li{
+  margin-bottom: .7rem;
+}
+.footer .links li a{
+  text-decoration: none;
+  font-size: .9rem;
+  color: var(--light);
+}
+.footer .social-links li i{
+  padding: 0;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  line-height: 45px;
+  text-align: center;
+  font-size: 16px;
+  background-color: var(--primary);
+  color: var(--white);
+}
 /** 3- Common Style */
 /**  3.0- Button Primary */
 .b-primary{
@@ -327,4 +353,9 @@ body{
   outline: none;
   box-shadow: unset;
   border-color:#3D58F3;
+}
+/** 3.4- PlaceHolder */
+::placeholder{
+  font-size: .7rem;
+  color: #ccc;
 }
