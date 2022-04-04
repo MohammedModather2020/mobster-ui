@@ -17,7 +17,8 @@
    2.0- Navbar Header
    2.1- Main
    2.2- Clients
-   2.2- Features
+   2.3- Features
+   2.4- Why Choose 
 * 3- Common Style
    3.0- Button Primary
 */
@@ -197,6 +198,18 @@ body{
 .features .features-bottom .text button a{
   color: var(--indigo);
   font-weight: 500;
+}
+/** 2.4- Why Choose */
+.why-choose{
+  background-color: var(--dark);
+}
+.why-choose .box .name{
+  font-size: 1.2rem;
+}
+.why-choose .box .desc{
+  line-height: var(--line-height);
+  color: #ddd;
+  font-size: .8rem;
 }
 /** 3- Common Style */
 /**  3.0- Button Primary */
