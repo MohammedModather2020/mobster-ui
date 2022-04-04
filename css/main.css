@@ -292,6 +292,7 @@ body{
 }
 /** 2.7- Footer */
 .footer{
+  border-bottom: 1px solid #ededed21;
   background-color: var(--dark);
 }
 .footer .links li{
@@ -312,6 +313,18 @@ body{
   font-size: 16px;
   background-color: var(--primary);
   color: var(--white);
+}
+/** 2.7- Copyright */
+.copyright{
+  background-color: var(--dark);
+}
+.copyright img{
+  width: 30px;
+}
+.copyright .links-policy li a{
+  color: var(--light);
+  font-size: .9rem;
+  text-decoration: none;
 }
 /** 3- Common Style */
 /**  3.0- Button Primary */
