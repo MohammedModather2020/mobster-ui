@@ -19,8 +19,10 @@
    2.2- Clients
    2.3- Features
    2.4- Why Choose 
+   2.5- Pricing
 * 3- Common Style
    3.0- Button Primary
+   3.1- Button Gradient
 */
 /* 
 /** 1- Genral Style */
@@ -211,10 +213,71 @@ body{
   color: #ddd;
   font-size: .8rem;
 }
+/** 2.5- Pricing */
+.pricing{
+  background-image: url(../assets/images/bg-pattern_2.svg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.pricing .info .desc{
+  font-size: .9rem;
+  line-height: 1.9;
+}
+.pricing .info button a{
+  font-size: 1rem;
+}
+.pricing .info button i{
+  display: inline-block;
+    margin-right: 12px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.pricing .pricing-table .plan-item{
+  display: inline-block;
+  margin: 15px;
+  padding: 60px 20px 80px 20px;
+  background-color: #fff;
+  background-image: url(../assets/images/bg-pricing_pattern_grayscale.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgb(56 51 64 / 19%);
+}
+.pricing .pricing-table .plan-item.active{
+ background-image: url(../assets/images/bg-pricing_pattern.svg);
+ transform: translateY(-50px);
+}
+.pricing .pricing-table .plan-item .plan-header .price{
+  color: var(--indigo);
+}
+.pricing .pricing-table .plan-item .plan-body ul li{
+  padding-block: .5rem;
+}
+.pricing .pricing-table .plan-item .plan-body ul li i{
+  margin-inline-end: .5rem;
+}
+.pricing .pricing-table .plan-item .plan-body button a{
+ font-size: 1rem;
+ padding-inline: .5rem;
+}
+.pricing .pricing-table .plan-item.active .plan-body ul li i{
+  color: rgba(61, 88, 243,.8);
+}
 /** 3- Common Style */
 /**  3.0- Button Primary */
 .b-primary{
   font-family: var(--font-family);
   padding: .6rem 1.4rem;
   background-color: var(--primary);
+}
+/** 3.1- Button Gradient */
+.btn-gradient {
+  color: #fff;
+  background: linear-gradient(45deg, var(--primary), #9548F9);
+  border: none;
 }
