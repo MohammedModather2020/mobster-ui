@@ -20,9 +20,11 @@
    2.3- Features
    2.4- Why Choose 
    2.5- Pricing
+   2.6- Customer Stories
 * 3- Common Style
    3.0- Button Primary
    3.1- Button Gradient
+   3.2- Background Image Overlay 
 */
 /* 
 /** 1- Genral Style */
@@ -268,6 +270,23 @@ body{
 .pricing .pricing-table .plan-item.active .plan-body ul li i{
   color: rgba(61, 88, 243,.8);
 }
+/** 2.6- Customer Stories */
+.customer-stories{
+  background-image: url(../assets/images/bg_testimonials.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.customer-stories .text .desc{
+  line-height: 1.8;
+  font-size: .9rem;
+}
+.customer-stories .text button a{
+  color: var(--white);
+}
+.customer-stories .text button:hover a{
+  color: #5F5A68;
+}
 /** 3- Common Style */
 /**  3.0- Button Primary */
 .b-primary{
@@ -280,4 +299,14 @@ body{
   color: #fff;
   background: linear-gradient(45deg, var(--primary), #9548F9);
   border: none;
+}
+/** 3.2- Background Image Overlay */
+.bg-image-overlay-dark::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(56, 51, 64, 0.6);
 }
