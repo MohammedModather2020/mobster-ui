@@ -76,9 +76,8 @@ body{
   position: relative;
   padding: .77rem 1.3rem;
   z-index: 999;
-  background-color: var(--dark);
 }
-.navbar-header  .download button a{
+.navbar-header .download button a{
   color: var(--white);
 }
 /** 2.1- Main */
@@ -371,4 +370,11 @@ body{
 ::placeholder{
   font-size: .7rem;
   color: #ccc;
+}
+/** 3.5- Bg Color */
+.bg-primary{
+  background-color: var(--primary);
+}
+.bg-dark{
+  background-color: var(--dark);
 }
