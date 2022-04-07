@@ -22,12 +22,14 @@
    2.5- Pricing
    2.6- Customer Stories
    2.7- Footer
+   2.8- Hero
 * 3- Common Style
    3.0- Button Primary
    3.1- Button Gradient
    3.2- Background Image Overlay 
    3.3- From 
    3.4- PlaceHolder
+   3.5- Bg Color
 */
 /* 
 /** 1- Genral Style */
@@ -87,6 +89,8 @@ body{
   background-repeat: no-repeat;
   background-position: center center;
 }
+.hero,
+.hero .container,
 .main,
 .main .container{
   min-height: calc(100vh + 49px); 
@@ -324,6 +328,25 @@ body{
   color: var(--light);
   font-size: .9rem;
   text-decoration: none;
+}
+/** 2.8- Hero */
+.hero{
+  background-image: url(../assets/images/bg-hero_mini.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.hero .breadcrumb-dark .breadcrumb-item a {
+  color: rgba(228, 225, 235, 0.7);
+  text-decoration: none;
+}
+.hero .breadcrumb-dark .breadcrumb-item + .breadcrumb-item::before {
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 700;
+  font-size: .8rem; 
+  padding-top: 3px;
+  content: "\f105";
+  color: var(--white);
 }
 /** 3- Common Style */
 /**  3.0- Button Primary */
