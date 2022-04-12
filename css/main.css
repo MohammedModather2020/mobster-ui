@@ -23,6 +23,7 @@
    2.6- Customer Stories
    2.7- Footer
    2.8- Hero
+   2.9- Stories
 * 3- Common Style
    3.0- Button Primary
    3.1- Button Gradient
@@ -347,6 +348,17 @@ body{
   padding-top: 3px;
   content: "\f105";
   color: var(--white);
+}
+/** 2.9- Stories */
+.stories .box-wrapper{
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.stories .box-wrapper .title{
+  font-size: 1.3rem;
+}
+.stories .box-wrapper .desc{
+  line-height: 1.8;
+  font-size: .8rem;
 }
 /** 3- Common Style */
 /**  3.0- Button Primary */
