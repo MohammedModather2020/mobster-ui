@@ -24,6 +24,7 @@
    2.7- Footer
    2.8- Hero
    2.9- Stories
+   2.10 Meet Our Team
 * 3- Common Style
    3.0- Button Primary
    3.1- Button Gradient
@@ -357,15 +358,13 @@ body{
 .meet-team .box-wrapper .title,
 .stories .box-wrapper .title{
   font-size: 1.3rem;
+  color: var(--indigo);
 }
 .stories .box-wrapper .desc{
   line-height: 1.8;
   font-size: .8rem;
 }
-/** Meet Our Team */
-.meet-team .box-wrapper .title{
-  color: var(--indigo);
-}
+/** 2.10 Meet Our Team */
 .meet-team .info .name{
   font-size: 1.2rem;
 }
