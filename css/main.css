@@ -350,15 +350,27 @@ body{
   color: var(--white);
 }
 /** 2.9- Stories */
+.meet-team .box-wrapper,
 .stories .box-wrapper{
   box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
 }
+.meet-team .box-wrapper .title,
 .stories .box-wrapper .title{
   font-size: 1.3rem;
 }
 .stories .box-wrapper .desc{
   line-height: 1.8;
   font-size: .8rem;
+}
+/** Meet Our Team */
+.meet-team .box-wrapper .title{
+  color: var(--indigo);
+}
+.meet-team .info .name{
+  font-size: 1.2rem;
+}
+.meet-team .info .job-title{
+  font-size: .85rem;
 }
 /** 3- Common Style */
 /**  3.0- Button Primary */
