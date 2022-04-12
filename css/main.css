@@ -25,6 +25,7 @@
    2.8- Hero
    2.9- Stories
    2.10 Meet Our Team
+   2.11 Partners
 * 3- Common Style
    3.0- Button Primary
    3.1- Button Gradient
@@ -351,10 +352,12 @@ body{
   color: var(--white);
 }
 /** 2.9- Stories */
+.partners .box-wrapper,
 .meet-team .box-wrapper,
 .stories .box-wrapper{
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
+.partners .box-wrapper .title,
 .meet-team .box-wrapper .title,
 .stories .box-wrapper .title{
   font-size: 1.3rem;
@@ -370,6 +373,11 @@ body{
 }
 .meet-team .info .job-title{
   font-size: .85rem;
+}
+/** 2.11- Partners */
+.partners .item .image img{
+  height: 100px;
+  object-fit: contain;
 }
 /** 3- Common Style */
 /**  3.0- Button Primary */
