@@ -443,6 +443,43 @@ body{
   box-shadow: 0 2px 3px rgb(51 47 58 / 15%);
   z-index: 3;
 }
+.blogs .widget-wrap .categories {
+  position: relative;
+  display: block;
+  list-style: none;
+  padding-left: 24px;
+}
+.blogs .widget-wrap .categories li {
+  position: relative;
+  display: block;
+  margin: 6px auto;
+}
+.blogs .widget-wrap .categories li::before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: -21px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 0 0 3px #526bf5;
+}
+.blogs .widget-wrap .categories li:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: -19px;
+  width: 1px;
+  height: 100%;
+  background-color: #cac7cf;
+  z-index: -2;
+}
+.blogs .widget-wrap .categories li a {
+  font-weight: 500;
+  color: #526bf5;
+  text-decoration: none;
+}
 /** 3- Common Style */
 /**  3.0- Button Primary */
 .b-primary{
