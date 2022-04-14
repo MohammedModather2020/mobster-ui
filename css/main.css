@@ -517,6 +517,23 @@ body{
   margin-right: 8px;
   color: #9b99a1;
 }
+.blogs .widget-wrap .tag-clouds {
+  position: relative;
+  display: block;
+}
+.blogs .widget-wrap .tag-cloud-link {
+  display: inline-block;
+  padding: 4px 12px;
+  margin: 3px auto;
+  color: #797585;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  border: 1px solid #E4E1EB;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgb(51 47 58 / 15%);
+}
+
 /** 3- Common Style */
 /**  3.0- Button Primary */
 .b-primary{
