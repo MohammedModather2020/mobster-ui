@@ -430,7 +430,19 @@ body{
   font-weight: 600;
   text-decoration: none;
 }
-.blogs .blog .info{}
+.blogs .widget-wrap {
+  position: relative;
+  display: block;
+  padding: 20px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #f5f4fa;
+  border-bottom: 3px solid #7b50e6;
+  box-shadow: 0 2px 3px rgb(51 47 58 / 15%);
+  z-index: 3;
+}
 /** 3- Common Style */
 /**  3.0- Button Primary */
 .b-primary{
