@@ -26,6 +26,8 @@
    2.9- Stories
    2.10 Meet Our Team
    2.11 Partners
+   2.12- Blogs
+   2.13- New Features
 * 3- Common Style
    3.0- Button Primary
    3.1- Button Gradient
@@ -352,6 +354,7 @@ body{
   color: var(--white);
 }
 /** 2.9- Stories */
+.new-features .box-wrapper,
 .partners .box-wrapper,
 .meet-team .box-wrapper,
 .stories .box-wrapper{
@@ -379,7 +382,7 @@ body{
   height: 100px;
   object-fit: contain;
 }
-/** Blogs */
+/** 2.12- Blogs */
 .blogs .blog .info {
   position: absolute;
   bottom: -5%;
@@ -533,7 +536,26 @@ body{
   border-radius: 4px;
   box-shadow: 0 1px 1px rgb(51 47 58 / 15%);
 }
-
+/** 2.13- New Features */
+.new-features .theme-list .list-item{
+  font-size: .9rem;
+  display: flex;
+  color: #6b6872;
+}
+.new-features .theme-list .list-item i {
+  color: var(--indigo);
+  margin-inline-end: .5rem;
+  display: inline-block;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  background-color: rgba(96, 47, 218, 0.16);
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 50%;
+  transform: translateY(4px);
+}
 /** 3- Common Style */
 /**  3.0- Button Primary */
 .b-primary{
