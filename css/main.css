@@ -556,6 +556,20 @@ body{
   border-radius: 50%;
   transform: translateY(4px);
 }
+/** 2.14- Contact Info */
+.contact-info .box-wrapper{
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  grid-template-columns: repeat(3,1fr);
+}
+.contact-info .box-wrapper .item i{
+  font-size: 1.7rem;
+  color: var(--danger);
+}
+.contact-info .box-wrapper .item a{
+  display: block;
+  text-decoration: none;
+  color: var(--dark);
+}
 /** 3- Common Style */
 /**  3.0- Button Primary */
 .b-primary{
