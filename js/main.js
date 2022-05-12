@@ -5,12 +5,18 @@ $(function () {
   // -------------------------------------------------------------------------->
   var scrollButton = $('#scroll-top');
   $(window).scroll(function () {
-    if ($(this).scrollTop() > 300) {
+    if ($(this).scrollTop() > 200) {
       scrollButton.show();
-      $('.navbar-header .container').css({ backgroundColor: '#F0EEF5',borderRadius:'1rem' });
+      $('.navbar-header .container').css({
+        backgroundColor: '#F0EEF5',
+        borderRadius: '1rem',
+      });
     } else {
       scrollButton.hide();
-      $('.navbar-header .container').css({ backgroundColor: 'unset',borderRadius:'0' });
+      $('.navbar-header .container').css({
+        backgroundColor: 'unset',
+        borderRadius: '0',
+      });
     }
   });
   // click button as scroll to top
@@ -19,7 +25,7 @@ $(function () {
       {
         scrollTop: 0,
       },
-      1000
+      100
     );
   });
   // ------------------------------------------------------------------------->

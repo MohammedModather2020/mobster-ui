@@ -36,6 +36,7 @@
    3.3- From 
    3.4- PlaceHolder
    3.5- Bg Color
+   3.6 Scroll Top
 */
 /* 
 /** 1- Genral Style */
@@ -626,4 +627,29 @@ body{
 }
 .bg-dark{
   background-color: var(--dark);
+}
+/** 3.6 Scroll Top */
+#scroll-top{
+  display: none;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  color: white;
+  background: var(--primary);
+  position: fixed;
+  z-index: 9999;
+  right: 15px;
+  bottom: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+#scroll-top i{
+  line-height: 40px;
+}
+#scroll-top:hover{
+  background: var(--primary);
 }
