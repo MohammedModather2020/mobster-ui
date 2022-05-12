@@ -7,10 +7,17 @@ $(function () {
   $(window).scroll(function () {
     if ($(this).scrollTop() > 200) {
       scrollButton.show();
-      $('.navbar-header .container').css({
-        backgroundColor: '#F0EEF5',
-        borderRadius: '1rem',
-      });
+      if ($('.navbar-header .container').parent().hasClass('home')) {
+        $('.navbar-header .container').css({
+          backgroundColor: '#3D58F3',
+          borderRadius: '1rem',
+        });
+      } else {
+        $('.navbar-header .container').css({
+          backgroundColor: '#0d6efd',
+          borderRadius: '1rem',
+        });
+      }
     } else {
       scrollButton.hide();
       $('.navbar-header .container').css({
