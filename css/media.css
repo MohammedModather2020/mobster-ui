@@ -1,4 +1,7 @@
 @media (max-width:991px){
+  .hero, .hero .container, .main, .main .container{
+    min-height: unset;
+  }
   .main .text {
     padding-top: 5rem;
   }
@@ -9,6 +12,12 @@
   .main .image{
     display: none;
   }
-  
+  .clients .clients-swiper .swiper-wrapper{
+    justify-content: center;
+    left: 95px;
+  }
+  .clients .clients-swiper .swiper-wrapper .box{
+    width: 70% !important;
+  }
 
 }
