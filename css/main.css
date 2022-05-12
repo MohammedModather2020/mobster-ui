@@ -82,7 +82,7 @@ body{
 }
 .navbar-header .download button{
   position: relative;
-  padding: .77rem 1.3rem;
+  padding: .77rem;
   z-index: 999;
 }
 .navbar-header .download button a{

@@ -1,0 +1,14 @@
+@media (max-width:991px){
+  .main .text {
+    padding-top: 5rem;
+  }
+  .main .text .desc {
+    margin-block: 1rem;
+    width: 100%;
+  }
+  .main .image{
+    display: none;
+  }
+  
+
+}
