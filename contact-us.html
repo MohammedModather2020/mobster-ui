@@ -15,11 +15,37 @@
     <link rel="stylesheet" href="css/aos.min.css">
     <!-- Link CSS -->
     <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/menu-mobile.css"/>
     <link rel="stylesheet" href="css/media.css">
   </head>
   <body>
+    <!--* Navbar Mobile-->
+    <div class="window d-md-none">
+      <div class="header">
+        <div class="burger-container">
+          <div id="burger">
+            <div class="bar topBar"></div>
+            <div class="bar btmBar"></div>
+            <div class="bar btmBar"></div>
+          </div> <!-- ./burger -->
+        </div> <!-- ./burger-container -->
+        <div class="icon icon-apple">
+          <a class="text-decoration-none" href="index.html"> <img src="assets/images/logo-light.png" alt="Image Logo" draggable="false"/><span>Mobster</span></a>
+        </div>
+        <ul class="menu">
+          <li class="menu-item"><a href="index.html">Home</a></li>
+          <li class="menu-item"><a href="about.html">About</a></li>
+          <li class="menu-item"><a href="what's-new.html">What's New</a></li>
+          <li class="menu-item"><a href="blog.html">Blog</a></li>
+          <li class="menu-item"><a href="contact-us.html">Contact us</a></li>
+          <li class="menu-item"><button class="btn rounded-pill bg-dark"><a class="text-decoration-none fw-bold" href=""><i class="fa-solid fa-download"></i> Download Now</a></button></li>
+
+        </ul> <!-- ./menu -->
+        <div class="shop icon icon-bag"></div>
+      </div> <!-- ./header -->
+    </div> <!-- ./window -->
     <!--* Navbar -->
-    <div class="navbar-header navbar-expand fixed-top py-3">
+    <div class="navbar-header home navbar-expand fixed-top py-3 d-none d-md-block ">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-1">
@@ -30,7 +56,7 @@
               <li><a class="text-white-50" href="index.html">Home</a></li>
               <li><a class="text-white-50" href="about.html">About</a></li>
               <li><a class="text-white-50" href="blog.html">Blog</a></li>
-              <li><a class="text-white-50" href="what-new.html">What's New</a></li>
+              <li><a class="text-white-50" href="what's-new.html">What's New</a></li>
               <li><a class="text-white" href="contact-us.html">Contact</a></li>
             </ul> <!-- ./links -->
           </div>
@@ -59,13 +85,13 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-9">
-            <div class="box-wrapper d-grid align-items-center text-center p-4 rounded-3 gap-2">
-              <div class="item border-end">
+            <div class="box-wrapper d-md-grid align-items-center text-center  p-4 rounded-3 gap-2">
+              <div class="item">
                 <i class="fa-solid fa-location-dot"></i>
                 <p class="text-primary fs-5 fw-bolder">Location</p>
                 <p class="mb-0">3 East Ridgewood Avenue Los Angeles, CA 90022</p>
               </div> <!-- ./item -->
-              <div class="item border-end">
+              <div class="item">
                 <i class="fa-solid fa-phone"></i>
                 <p class="text-primary fs-5 fw-bolder">Contact</p>
                 <a href="tel:+213 908 92034" class="mb-1">+213 908 92034</a>

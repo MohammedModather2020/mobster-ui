@@ -37,4 +37,12 @@
     -ms-transform: translateY(10px);
     -o-transform: translateY(10px);
   }
+  .contact-info .box-wrapper .item{
+    padding-block: 1rem;
+  }
+  .contact-info .box-wrapper .item:first-of-type,
+  .contact-info .box-wrapper .item:nth-of-type(2){
+    border-bottom: 1px solid #dee2e6;
+    border-right: unset;
+  }
 }
