@@ -1,6 +1,6 @@
 $(function () {
   'use strict';
-    // ------------------------------------------------------------------------->
+  // ------------------------------------------------------------------------->
   // trigger swiper scroll
   new Swiper('.clients-swiper', {
     slidesPerView: 6,
@@ -24,5 +24,11 @@ $(function () {
       },
     },
   });
-
+  // -------------------------------------------------------------------------->
+  // trigger menu mobile
+  var i = document.querySelector('.burger-container'),
+    a = document.querySelector('.header');
+  i.onclick = function () {
+    a.classList.toggle('menu-opened');
+  };
 });
