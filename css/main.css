@@ -146,7 +146,7 @@ body{
 .clients{
   background: #ededed;
 }
-.clients .clients-swiper .box img{
+.clients .clients-swiper .swiper-wrapper .box img{
   margin-bottom: 10px;
   background-color: #fff;
   width: 100%;
@@ -156,7 +156,7 @@ body{
   object-fit: contain;
   object-position: center;
   box-shadow: rgb(0 0 0 / 10%) 0px 10px 50px;
-}
+}  
 /** 2.3- Features */
 .features {
   background-image: url(../assets/images/img-pattern-1.svg);
