@@ -22,6 +22,11 @@
   .features .image img {
     width: 80%;
   }
+  .pricing .pricing-table .plan-item {
+    margin-block: 1.6rem;
+    margin-inline: auto;
+    width: 100%;
+  }
   .pricing .pricing-table .plan-item.active{
     transform: translateY(10px);
     -webkit-transform: translateY(10px);
