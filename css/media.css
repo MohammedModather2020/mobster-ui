@@ -1,5 +1,5 @@
 @media (max-width:991px){
-  .hero, .hero .container, .main, .main .container{
+  .main, .main .container{
     min-height: unset;
   }
   .main .text {
@@ -11,6 +11,9 @@
   }
   .main .image{
     display: none;
+  }
+  .hero, .hero .container{
+    min-height: 60vh;
   }
   .clients .clients-swiper .swiper-wrapper{
     justify-content: center;
