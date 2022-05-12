@@ -167,6 +167,7 @@ body{
 .features .image img{
   box-shadow: 0 0.25rem 0.75rem rgb(56 51 64 / 12%);
   overflow: hidden;
+  width: 50%;
   border-radius: 1.8rem;
   -webkit-border-radius: 1.8rem;
   -moz-border-radius: 1.8rem;

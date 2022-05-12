@@ -19,5 +19,8 @@
   .clients .clients-swiper .swiper-wrapper .box{
     width: 70% !important;
   }
+  .features .image img {
+    width: 80%;
+  }
 
 }
