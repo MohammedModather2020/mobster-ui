@@ -15,28 +15,53 @@
     <link rel="stylesheet" href="css/aos.min.css">
     <!-- Link CSS -->
     <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/menu-mobile.css"/>
     <link rel="stylesheet" href="css/media.css">
   </head>
   <body>
-    <!--* Navbar -->
-    <div class="navbar-header navbar-expand fixed-top py-3">
+    <!--* Navbar Mobile-->
+    <div class="window d-md-none">
+      <div class="header">
+        <div class="burger-container">
+          <div id="burger">
+            <div class="bar topBar"></div>
+            <div class="bar btmBar"></div>
+            <div class="bar btmBar"></div>
+          </div> <!-- ./burger -->
+        </div> <!-- ./burger-container -->
+        <div class="icon icon-apple">
+          <a class="text-decoration-none" href="index.html"> <img src="assets/images/logo-light.png" alt="Image Logo" draggable="false"/><span>Mobster</span></a>
+        </div>
+        <ul class="menu">
+          <li class="menu-item"><a href="index.html">Home</a></li>
+          <li class="menu-item"><a href="about.html">About</a></li>
+          <li class="menu-item"><a href="what's-new.html">What's New</a></li>
+          <li class="menu-item"><a href="blog.html">Blog</a></li>
+          <li class="menu-item"><a href="contact-us.html">Contact us</a></li>
+          <li class="menu-item"><button class="btn rounded-pill bg-dark"><a class="text-decoration-none fw-bold" href=""><i class="fa-solid fa-download"></i> Download Now</a></button></li>
+        </ul> <!-- ./menu -->
+        <div class="shop icon icon-bag"></div>
+      </div> <!-- ./header -->
+    </div> <!-- ./window -->
+    <!--* Navbar Desktop-->
+    <div class="navbar-header navbar-expand fixed-top py-3 d-none d-md-block">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-1">
-            <a href="/" class="barnd"><img height="40" src="assets/images/logo-light.png" alt="logo"/></a>
+            <a href="/" class="barnd"><img height="40" src="assets/images/logo.png" alt="logo"/></a>
           </div>
           <div class="col-md-9">
             <ul class="links list-unstyled d-flex gap-5 mb-0">
-              <li><a class="text-white-50" href="index.html">Home</a></li>
-              <li><a class="text-white" href="about.html">About</a></li>
-              <li><a class="text-white-50" href="blog.html">Blog</a></li>
-              <li><a class="text-white-50" href="what-new.html">What's New</a></li>
-              <li><a class="text-white-50" href="contact-us.html">Contact</a></li>
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="what's-new.html">What's New</a></li>
+              <li><a href="contact-us.html">Contact</a></li>
             </ul> <!-- ./links -->
           </div>
           <div class="col-md-2 text-end">
             <div class="download">
-              <button class="btn rounded-pill b-primary"><a class="text-decoration-none fw-bold" href="">Download Now</a></button>
+              <button class="btn rounded-pill bg-dark"><a class="text-decoration-none fw-bold" href=""><i class="fa-solid fa-download"></i> Download Now</a></button>
             </div> <!-- ./download -->
           </div>
         </div> <!-- ./row -->
