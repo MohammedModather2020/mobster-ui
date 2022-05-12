@@ -566,6 +566,14 @@ body{
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   grid-template-columns: repeat(3,1fr);
 }
+.form-contact-us .box-wrapper.location iframe{
+  width: 100%;
+  border-radius: .3rem;
+  -webkit-border-radius: .3rem;
+  -moz-border-radius: .3rem;
+  -ms-border-radius: .3rem;
+  -o-border-radius: .3rem;
+}
 .contact-info .box-wrapper .item:first-of-type,
 .contact-info .box-wrapper .item:nth-of-type(2){
   border-right: 1px solid #dee2e6;
