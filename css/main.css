@@ -541,6 +541,9 @@ body{
   box-shadow: 0 1px 1px rgb(51 47 58 / 15%);
 }
 /** 2.13- New Features */
+.new-features .desc a{
+  line-break: anywhere;
+}
 .new-features .theme-list .list-item{
   font-size: .9rem;
   display: flex;
@@ -551,9 +554,10 @@ body{
   margin-inline-end: .5rem;
   display: inline-block;
   text-align: center;
-  width: 20px;
-  height: 20px;
-  line-height: 20px;
+  width: 25px;
+  min-width: 25px;
+  height: 25px;
+  line-height: 25px;
   background-color: rgba(96, 47, 218, 0.16);
   background-repeat: no-repeat;
   background-position: center center;
