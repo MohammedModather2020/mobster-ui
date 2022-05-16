@@ -45,7 +45,14 @@
     border-bottom: 1px solid #dee2e6;
     border-right: unset;
   }
-.form-contact-us .box-wrapper.location{
-  margin-bottom: 2rem;
-}
+  .form-contact-us .box-wrapper.location{
+    margin-bottom: 2rem;
+  }
+  .blogs .blog .info .blog-date{
+    top: -60px;
+  }
+  .blogs .blog .info {
+    position: relative;
+    bottom: unset;
+  }
 }
