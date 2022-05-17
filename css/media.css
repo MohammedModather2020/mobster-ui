@@ -1,9 +1,9 @@
 @media (max-width:991px){
   .main, .main .container{
-    min-height: unset;
+    min-height: 105vh;
   }
   .main .text {
-    padding-top: 5rem;
+    padding-top: 6rem;
   }
   .main .text .desc {
     margin-block: 1rem;
@@ -36,6 +36,9 @@
     -moz-transform: translateY(10px);
     -ms-transform: translateY(10px);
     -o-transform: translateY(10px);
+  }
+  .pricing .pricing-table .plan-item .plan-body ul li{
+    padding-block: .9rem;
   }
   .contact-info .box-wrapper .item{
     padding-block: 1rem;
