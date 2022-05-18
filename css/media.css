@@ -1,12 +1,9 @@
 @media (max-width:991px){
-  .main, .main .container{
-    min-height: 105vh;
-  }
   .main .text {
     padding-top: 6rem;
   }
   .main .text .desc {
-    margin-block: 1rem;
+    margin-block: 1.5rem;
     width: 100%;
   }
   .main .image{
